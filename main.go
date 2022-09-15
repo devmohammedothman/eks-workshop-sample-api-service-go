@@ -23,7 +23,7 @@ func main() {
 		}
 		sort.Strings(res.EnvVars)
 
-		for i := 1; i <= 90; i++ {
+		for i := 1; i <= 50; i++ {
 			res.Fib = append(res.Fib, f())
 		}
 
